@@ -1,0 +1,1571 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-abkhazia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-afghanistan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-aland {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-albania {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-algeria {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-american-samoa {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-andorra {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-angola {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-anguilla {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-antarctica {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-antigua-and-barbuda {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-argentina {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-armenia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-aruba {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-australia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-austria {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-azerbaijan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-bahamas {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-bahrain {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-bangladesh {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-barbados {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-basque-country {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-belarus {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-belgium {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-belize {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-benin {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-bermuda {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-bhutan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-bolivia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-bosnia-and-herzegovina {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-botswana {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-brazil {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-british-antarctic-territory {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-british-virgin-islands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-brunei {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-bulgaria {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-burkina-faso {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-burundi {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-cambodia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-cameroon {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-canada {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-canary-islands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-cape-verde {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-cayman-islands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-central-african-republic {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-chad {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-chile {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-china {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-christmas-island {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-cocos-keeling-islands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-colombia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-commonwealth {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-comoros {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-cook-islands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-costa-rica {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-cote-divoire {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-croatia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-cuba {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-curacao {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-cyprus {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-czech-republic {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-democratic-republic-of-the-congo {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-denmark {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-djibouti {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-dominica {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-dominican-republic {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-east-timor {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-ecuador {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-egypt {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-el-salvador {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-england {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-equatorial-guinea {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-eritrea {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-estonia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-ethiopia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-european-union {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-falkland-islands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-faroes {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-fiji {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-finland {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-france {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-french-polynesia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-french-southern-territories {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-gabon {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-gambia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-georgia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-germany {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-ghana {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-gibraltar {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-gosquared {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-greece {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-greenland {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-grenada {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-guam {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-guatemala {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-guernsey {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-guinea-bissau {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-guinea {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-guyana {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-haiti {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-honduras {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-hong-kong {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-hungary {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-iceland {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-india {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-indonesia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-iran {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-iraq {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-ireland {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-isle-of-man {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-israel {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-italy {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-jamaica {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-japan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-jersey {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-jordan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-kazakhstan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-kenya {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-kiribati {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-kosovo {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-kuwait {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-kyrgyzstan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-laos {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-latvia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-lebanon {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-lesotho {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-liberia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-libya {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-liechtenstein {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-lithuania {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-luxembourg {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-macau {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-macedonia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-madagascar {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-malawi {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-malaysia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-maldives {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-mali {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-malta {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-mars {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-marshall-islands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-martinique {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-mauritania {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-mauritius {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-mayotte {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-mexico {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-micronesia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-moldova {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-monaco {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-mongolia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-montenegro {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-montserrat {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-morocco {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-mozambique {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-myanmar {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-nagorno-karabakh {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-namibia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-nato {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-nauru {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-nepal {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-netherlands-antilles {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-netherlands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-new-caledonia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-new-zealand {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-nicaragua {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-niger {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-nigeria {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-niue {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-norfolk-island {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-north-korea {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-northern-cyprus {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-northern-mariana-islands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-norway {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-olympics {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-oman {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-pakistan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-palau {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-palestine {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-panama {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-papua-new-guinea {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-paraguay {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-peru {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-philippines {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-pitcairn-islands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-poland {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-portugal {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-puerto-rico {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-qatar {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-red-cross {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-republic-of-the-congo {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-romania {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-russia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-rwanda {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-saint-barthelemy {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-saint-helena {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-saint-kitts-and-nevis {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-saint-lucia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-saint-martin {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-saint-vincent-and-the-grenadines {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-samoa {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-san-marino {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-sao-tome-and-principe {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-saudi-arabia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-scotland {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-senegal {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-serbia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-seychelles {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-sierra-leone {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-singapore {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-slovakia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-slovenia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-solomon-islands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-somalia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-somaliland {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-south-africa {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-south-georgia-and-the-south-sandwich-islands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-south-korea {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-south-ossetia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-south-sudan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-spain {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-sri-lanka {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-sudan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-suriname {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-swaziland {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-sweden {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-switzerland {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-syria {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-taiwan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-tajikistan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -192px;
+  width: 64px;
+  height: 64px;
+}
+.icon-tanzania {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-thailand {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -320px;
+  width: 64px;
+  height: 64px;
+}
+.icon-togo {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -384px;
+  width: 64px;
+  height: 64px;
+}
+.icon-tokelau {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -448px;
+  width: 64px;
+  height: 64px;
+}
+.icon-tonga {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -512px;
+  width: 64px;
+  height: 64px;
+}
+.icon-trinidad-and-tobago {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -576px;
+  width: 64px;
+  height: 64px;
+}
+.icon-tunisia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -640px;
+  width: 64px;
+  height: 64px;
+}
+.icon-turkey {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -704px;
+  width: 64px;
+  height: 64px;
+}
+.icon-turkmenistan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -768px;
+  width: 64px;
+  height: 64px;
+}
+.icon-turks-and-caicos-islands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -832px;
+  width: 64px;
+  height: 64px;
+}
+.icon-tuvalu {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -896px;
+  width: 64px;
+  height: 64px;
+}
+.icon-uganda {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: 0px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-ukraine {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -64px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-united-arab-emirates {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -128px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-united-kingdom {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -192px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-united-nations {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -256px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-united-states {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -320px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-unknown {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -384px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-uruguay {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -448px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-us-virgin-islands {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -512px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-uzbekistan {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -576px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-vanuatu {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -640px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-vatican-city {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -704px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-venezuela {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -768px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-vietnam {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -832px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-wales {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -896px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-wallis-and-futuna {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -960px -960px;
+  width: 64px;
+  height: 64px;
+}
+.icon-western-sahara {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -1024px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-yemen {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -1024px -64px;
+  width: 64px;
+  height: 64px;
+}
+.icon-zambia {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -1024px -128px;
+  width: 64px;
+  height: 64px;
+}
+.icon-zimbabwe {
+  background-image: url(sprite_flat_flags64.png);
+  background-position: -1024px -192px;
+  width: 64px;
+  height: 64px;
+}
